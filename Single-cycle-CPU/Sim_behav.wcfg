@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="12941fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/Sim/scpu/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/CurPC" type="array">
+      <obj_property name="ElementShortName">CurPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CurPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/newaddress" type="array">
+      <obj_property name="ElementShortName">newaddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">newaddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/instcode" type="array">
+      <obj_property name="ElementShortName">instcode[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instcode[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/Reg1Out" type="array">
+      <obj_property name="ElementShortName">Reg1Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg1Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/Reg2Out" type="array">
+      <obj_property name="ElementShortName">Reg2Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg2Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ALU_Out" type="array">
+      <obj_property name="ElementShortName">ALU_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/PCWre" type="logic">
+      <obj_property name="ElementShortName">PCWre</obj_property>
+      <obj_property name="ObjectShortName">PCWre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/InsMemRW" type="logic">
+      <obj_property name="ElementShortName">InsMemRW</obj_property>
+      <obj_property name="ObjectShortName">InsMemRW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/RegWre" type="logic">
+      <obj_property name="ElementShortName">RegWre</obj_property>
+      <obj_property name="ObjectShortName">RegWre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/PCSrc" type="array">
+      <obj_property name="ElementShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ALUSrcA" type="logic">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ALUSrcB" type="logic">
+      <obj_property name="ElementShortName">ALUSrcB</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/RD" type="logic">
+      <obj_property name="ElementShortName">RD</obj_property>
+      <obj_property name="ObjectShortName">RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/WR" type="logic">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/DBDataSrc" type="logic">
+      <obj_property name="ElementShortName">DBDataSrc</obj_property>
+      <obj_property name="ObjectShortName">DBDataSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/WriteRegAddr" type="array">
+      <obj_property name="ElementShortName">WriteRegAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteRegAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ALU_Input_A" type="array">
+      <obj_property name="ElementShortName">ALU_Input_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Input_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/ALU_Input_B" type="array">
+      <obj_property name="ElementShortName">ALU_Input_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Input_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/MemOut" type="array">
+      <obj_property name="ElementShortName">MemOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/Ext_Imm" type="array">
+      <obj_property name="ElementShortName">Ext_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Sim/scpu/CurPC4" type="array">
+      <obj_property name="ElementShortName">CurPC4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CurPC4[31:0]</obj_property>
+   </wvobject>
+</wave_config>
